@@ -4,10 +4,10 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.List;
 
-public class DataStorage {
+public class PopatDataStorage {
     private String basePath;
 
-    public DataStorage(String basePath) {
+    public PopatDataStorage(String basePath) {
         this.basePath = basePath;
     }
 

@@ -3,11 +3,11 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Database {
-    private DataStorage dataStorage;
+public class PopatDB {
+    private PopatDataStorage dataStorage;
 
-    public Database(String basePath) {
-        dataStorage = new DataStorage(basePath);
+    public PopatDB(String basePath) {
+        dataStorage = new PopatDataStorage(basePath);
     }
 
     public void create(String collectionName, String documentId, HashMap<String, Object> data) throws IOException {
